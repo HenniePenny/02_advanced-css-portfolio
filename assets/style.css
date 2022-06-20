@@ -12,7 +12,6 @@ header {
     align-items: center;
     background-color: #1A072C;
     padding: 1% 0%;
-    
 }
 
 h1{
@@ -61,7 +60,87 @@ h1::before {
 #photo {
     max-width: 15%;
     height: auto;
+    opacity: 0.5;
 }
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 5px;
+}
+
+.aboutme div {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.chapter {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    width: 10%;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 5px;
+}
+
+.workexamples{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: flex-start;
+}
+
+.workexamplesdiv {
+    width: 40%;
+    height: 200px;
+    border: 2px solid #C1DAE0;
+    padding: 2%;
+    margin: 3%;
+}
+
+#firstworkexample {
+    width: 90%;
+    height: 400px;
+    border: 2px solid #C1DAE0;
+    padding: 0px;
+    margin: 5px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 5px;
+}
+
+.contact ul {
+    display: flex;
+        color: #1A072C;
+}
+
+.contact li {
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 5px solid #1A072C;
+    margin: 15px;
+    margin-left: 20px;
+}
+
 
 
 /*#photo-description {
